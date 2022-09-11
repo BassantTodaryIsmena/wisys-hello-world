@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 var url = $"http://0.0.0.0:{port}";
-var target = Environment.GetEnvironmentVariable("TARGET") ?? "WiSys team and welcome to Google Cloud! You are on the prod branch.";
+var target = Environment.GetEnvironmentVariable("TARGET") ?? "WiSys team and welcome to Google Cloud! You are on the prod branch.Test.";
 
 var app = builder.Build();
 
